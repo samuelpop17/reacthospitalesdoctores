@@ -53,6 +53,12 @@ export default class MenuDoctores extends Component {
                                         </ul>
                                     </div>
                                 </li>
+                                <li className="nav-item">
+                                    <NavLink className="nav-link active" aria-current="page" to="/createhospital">Crear Hospital</NavLink>
+                                </li>
+                                <li className="nav-item">
+                                    <NavLink className="nav-link active" aria-current="page" to="/listahospitales">Lista Hospitales</NavLink>
+                                </li>
 
                             </ul>
                         </div>
